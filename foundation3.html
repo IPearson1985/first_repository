@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <h1>My name is Isana Pearson</h1>
+    <body>
+        <p> I'm a true foodie. I love to cook. My grandparent and mother inspired my love for cooking. I started cooking and frying chicken at 7. I love Thai food and seafood. i love fine dining and a small mom & pop eatery. i love trying native food when I travel.
+
+
+<div id="Food Preferences">
+    <fieldset>
+        <legend>"Select your dietary preferences"</legend>
+        <form>
+            <input type="checkbox" id="vegetarian" name="vegetarian">
+            <label for="vegetarian">Vegetarian</label><br>
+
+            <input type="checkbox" id="vegan" name="vegan">
+            <label for="vegan">Vegan</label><br>
+
+            <input type="checkbox" id="gluten-free" name="gluten-free">
+            <label for="gluten-free">Gluten-free</label><br>
+
+            <input type="checkbox" id="dairy-free" name="dairy-free">
+            <label for="dairy-free">Dairy-free</label><br>
+        </fieldset>
+    </div>
+    <div>
+        <fieldset>
+            <legend>"Select your favorite cuisine"</legend>
+            <label>
+                <input type="radio" name="favorite food" value="Soul Food"> Soul Food
+            </label><br>
+
+            <label>
+                <input type="radio" name="favorite food" value="Asian"> Asian
+            </label><br>
+
+            <label>
+                <input type="radio" name="favorite food" value="Italian"> Italian
+            </label><br>
+
+            <br>
+       
+    </form>
+    </fieldset>   
+</div>   
+<div id="fav food">
+ <label for=Favorite_Food">
+  Favorite Food
+ </label><br>
+ <form method="Enter your favorite food">
+<input type="text" placeholder="Enter your Favorite Food">
+</form>
+
+</div>
+<div id="additional_notes">
+    <label for="Additional _Notes">
+        Additional Notes
+    </label>
+    <form>
+        <textarea name="Additional_Notes"></textarea>
+    </form><br>
+
+</div>   
+<div for="meals_per_day">
+    <label for="meals per day">
+       Number of Meals Per Day:
+       <label>
+        <form> <input type="number" min="1" max="5">
+    </form>
+    </div>
+    <div for="favorite_dish">
+     <label for="favorite dish">
+        Favorite Dish(Max 10 characters)
+     </label>
+    <form>
+            <input type="text" maxlength="10">
+    </form>
+</div>
+<div for="unavailable_food">
+    <label for="unavailable_food">
+        Unavailable Food Item:  
+    </label>
+    <form>
+    <input type="text" placeholder="OUT OF STOCK" disabled>    
+    </form>    
+    </div>
+            <div for="read_only_info">
+                <label for="read_only_info">
+                    Read-only Information:
+                </label>
+                <form>
+                    <input type="text" placeholder="User can only read" readonly>
+                </form>
+            </div>
+<div for="calorie_count">
+    <label for="calorie_count">
+        Total Calories Consumed 
+    </label>
+<form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+
+<input type="range" id="a" value="0">
+<input type="number" placeholder="Calories" randomly>
+</form>
+</div>
+<div for="Beverage_type">
+    <label for="Preferred Beverage">
+        Preferred Beverage:
+        </label>
+        <select name="Preferred Beverage">
+            <option value="Water">Water</option>
+            <option value="Tea">Tea</option>
+            <option value="Smoothies">Smoothies</option>
+            <option value="Coffee"> Coffee</option>
+        </select>
+</div>
+<div for="Beverage_type">
+    <label for="Alcoholic Beverage">
+        Alcoholic Beverage:
+    </label>
+    <select name="Alcoholic Beverages">
+        <option value="Lemon Drop">Lemon Drop</option>
+        <option value="Margarita">Margarita</option>
+        <option value="Cosmopolitian">Cosmopolitian</option>
+        <option value="Martini">Martini</option>
+    </select>
+</body>
+</html>
